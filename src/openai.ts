@@ -3,7 +3,7 @@ import {
   CreateImageRequestResponseFormatEnum,
   CreateImageRequestSizeEnum,
   OpenAIApi
-} from "openai";
+} from "./openai/index";
 import fs from "fs";
 import DBUtils from "./data.js";
 import {config} from "./config.js";
